@@ -5,7 +5,7 @@ let allCounts = {};
 
 const PORT = Number(process.env.PORT)
 
-const ORIGIN = 'https://tumo-ggepenyan-client.vercel.app';
+const ORIGIN = 'https://tumo-alex2012as-client.vercel.app';
 
 const httpServer = createServer();
 
