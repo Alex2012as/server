@@ -7,6 +7,8 @@ const PORT = Number(process.env.PORT)
 
 const ORIGIN = 'https://tumo-ggepenyan-client.vercel.app';
 
+const httpServer = createServer();
+
 const io = new Server(httpServer, { cors: { origin: ORIGIN } });
 
 io.on('connection', (socket) => {
